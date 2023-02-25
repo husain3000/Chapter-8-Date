@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h3>Current Date and time</h3>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+        <script>
+            D = new Date();
+            document.getElementById("p1").innerHTML="Date is "+D;
+            const d = new Date();
+            document.getElementById("p2").innerHTML = d.getMonth() + 1;
+            const a = new Date();
+            document.getElementById("p3").innerHTML = a.getDate();
+            const c = new Date();
+            document.getElementById("p4").innerHTML = c.getHours();
+            const z = new Date();
+            document.getElementById("p5").innerHTML = z.getMinutes();
+            const x = new Date();
+            document.getElementById("p6").innerHTML = x.getSeconds();
+
+        </script>
+        
+    </body>
+</html>
